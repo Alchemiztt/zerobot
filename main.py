@@ -95,6 +95,6 @@ async def on_ready():
                             await channel.send(f"{role.mention} Elder time has begun — only {current_count} players on the server. Perfect moment to take advantage.")
                         last_elder_alert = now
 
-        await asyncio.sleep(600)  # wait 10 minutes before next check
+        await asyncio.sleep(900)  # wait 10 minutes before next check
 
 client.run(TOKEN)
